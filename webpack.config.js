@@ -1,7 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 var config = {
   entry: ['./src/index.tsx'],
@@ -25,7 +24,6 @@ var config = {
 
   plugins: [
     new CleanWebpackPlugin(),
-    new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       inject: true,
