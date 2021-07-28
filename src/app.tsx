@@ -6,7 +6,7 @@ const App: React.FC = () => {
   //  so this bundle has been executed twice
   console.log('hello react')
   // but this clicked never appears
-  return <button onClick = {() => {console.log('clicked')}}> Click here</button>
+  return <button onClick = {() => {console.log('clicked')}}> Click Here </button>
 };
 
 export default App;
