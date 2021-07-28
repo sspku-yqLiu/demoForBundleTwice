@@ -5,6 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 var config = {
   entry: ['./src/index.tsx'],
+  mode: "development",
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: 'bundle.js',
