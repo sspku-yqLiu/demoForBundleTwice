@@ -17,7 +17,7 @@
 ``` html 
 13    <!-- <script src="./bundle.js"></script> -->
 ```
-- 'hello react' shows in termail <b> TWICE </b>
+- 'hello react' shows in console <b> TWICE </b>
 
 - and when you click the button 
 
