@@ -1,14 +1,24 @@
+# When you import bundle by html-webpack-plugin Once
+
 - run `npm install` 
 
 - run `npm run dev`
 
 - click the button 
 
-- 'clicked' shows in termial
+- 'hello react' shows in console
 
-- active this in src/index.html
+- 'clicked' shows in console
+
+# Now you will import bundle twice 
+
+- active codes in src/index.html
 
 ``` html 
 13    <!-- <script src="./bundle.js"></script> -->
 ```
-- nothing in termianl 
+- 'hello react' shows in termail <b> TWICE </b>
+
+- and when you click the button 
+
+- <b> AND NOTHING SHOWS IN CONSLE </b> 
