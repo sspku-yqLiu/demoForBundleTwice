@@ -1,35 +1,33 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 var config = {
-  entry: ['./src/index.tsx'],
+  entry: ["./src/index.tsx"],
   mode: "development",
   output: {
-    path: path.resolve(__dirname, '../dist'),
-    filename: 'bundle.js',
+    path: path.resolve(__dirname, "../dist"),
+    filename: "bundle.js",
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js'],
+    extensions: [".ts", ".tsx", ".js"],
   },
   module: {
     rules: [
       {
         test: /\.(ts|tsx)$/,
         exclude: /(node_modules|bower_components)/,
-        loader: 'ts-loader',
-      }
+        loader: "ts-loader",
+      },
     ],
   },
 
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      filename: 'index.html',
-      inject: true,
-      template: path.resolve(__dirname, './src/index.html'),
+      template: path.resolve(__dirname, "./src/index.html"),
     }),
   ],
-}
+};
 
 module.exports = config;
