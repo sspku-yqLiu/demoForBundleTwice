@@ -21,4 +21,4 @@
 
 - and when you click the button 
 
-- <b> AND NOTHING SHOWS IN CONSLE </b> 
+- <b> AND NOTHING SHOWS IN CONSOLE </b> 
