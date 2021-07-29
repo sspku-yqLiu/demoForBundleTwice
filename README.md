@@ -22,3 +22,7 @@
 - and when you click the button 
 
 - <b> AND NOTHING SHOWS IN CONSOLE </b> 
+
+# Here is a demo for this 
+
+![demo](https://user-images.githubusercontent.com/56879942/127428961-22e76eb6-d5d8-44d5-9ca4-873cb5cc167a.gif)
